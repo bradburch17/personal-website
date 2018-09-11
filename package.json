@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bradburch17.github.io/bradburch17.github.io",
+  "homepage": "http://bradburch17.github.io/personal-website",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
