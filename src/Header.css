@@ -1,15 +1,7 @@
-.App-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    height: auto;
-    border-radius: 50%;
-}
-
-.App-header {
-  background-color: #222;
+.header {
+  	background: url(./files/header.jpg) no-repeat center center;
+	background-size: cover;
 /*  margin-left: auto;
   margin-right: auto;*/
-  color: white;
+  	color: white;
 }

@@ -1,3 +1,16 @@
 .About {
 	background-color: darkgrey;
 }
+
+.text-left {
+	text-align: left;
+}
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    float: right;
+}

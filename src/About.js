@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import portrait from './files/self.jpg';
+import resume from './files/Brad_Burch_Resume.pdf';
 import './About.css';
 
 class About extends Component {
@@ -7,16 +9,20 @@ class About extends Component {
       <a name="about">
       <div className="row About">
         <div className="col">
-          <h2>About</h2>
-          <p>
-          Hello! I am Brad Burch, a software engineer with experience building full stack web applications, testing automation frameworks, 
-          microservices, and something else. 
-
-          I previously worked at Salesforce where I was helping maintain automated test framework and build a new microservice framework for 
-          running integration tests on the Salesforce platform. With this experience, I know the importance of writing maintanable, scalable, 
-          and testable code upfront. These principles allow a developer to spend more time developing new features later on, rather than going
-          back to fix old code. 
-        </p>
+          <img src={portrait} className="portrait" alt="portrait" />
+        </div>
+        <div className="col text-left">
+            <p>Hey, I'm Brad!</p>
+            <p>I live in San Francisco, CA.</p>
+            <p>Indiana born and raised.</p>
+            <p>Software Engineer.</p>
+            <p>Runner.</p>
+            <p>Java - React - Python - Full Stack Engineering</p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <a href={resume} className="btn btn-lg btn-outline" target="_blank"><i className="fa fa-file"></i> View Resume</a>
         </div>
       </div>
       </a>

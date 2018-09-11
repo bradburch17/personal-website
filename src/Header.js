@@ -1,27 +1,17 @@
 import React, { Component } from 'react';
-import picture from './files/self.jpg';
-import resume from './files/Brad_Burch_Resume.pdf';
 import './Header.css';
 
 class Header extends Component {
   render() {
     return (
-    <header className="App-header">
+    <header className="header">
      <div className="row">
-       <div className="col">
-         <img src={picture} className="App-logo" alt="logo" />
-        </div>
+      <div className="col">
+        <h1>You have an awesome idea.</h1>
+        <h2>I can help you bring that idea to fruition.</h2>
       </div>
-      <div className="row">
-        <div className="col">
-          <h1 className="App-title">Hi!</h1>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col">
-          <a href={resume} className="btn btn-lg btn-outline" target="_blank"><i className="fa fa-file"></i> View Resume</a>
-        </div>
-      </div>
+     </div>
+    
       </header>
     );
   }
