@@ -18,6 +18,8 @@ class About extends Component {
             <p>Software Engineer.</p>
             <p>Runner.</p>
             <p>Java - React - Python - Full Stack Engineering</p>
+            <p>Check out my <a href="https://www.linkedin.com/in/burchbrad/">LinkedIn</a></p>
+            <p>Check out my STRAVA</p>
         </div>
       </div>
       <div className="row">
