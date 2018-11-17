@@ -1,16 +1,9 @@
 .About {
-	background-color: darkgrey;
-}
-
-.text-left {
-	text-align: left;
+	background-color: #0e0e0e;
+	color: white;
 }
 
 .portrait {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: auto;
-    float: right;
+    display: inline-block;
+    width: fit-content;
 }

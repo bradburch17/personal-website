@@ -8,18 +8,16 @@ class About extends Component {
     return (
       <a name="about">
       <div className="row About">
-        <div className="col">
-          <img src={portrait} className="portrait" alt="portrait" />
-        </div>
-        <div className="col text-left">
-            <p>Hey, I'm Brad!</p>
+        <div className="col align-self-center">
+            <h2>Hey, I'm Brad!</h2>
             <p>I live in San Francisco, CA.</p>
-            <p>Indiana born and raised.</p>
-            <p>Software Engineer.</p>
-            <p>Runner.</p>
+            <p>Born and raised in Indiana.</p>
+            <p>I develop software.</p>
+            <p>I also run.</p>
             <p>Java - React - Python - Full Stack Engineering</p>
             <p>Check out my <a href="https://www.linkedin.com/in/burchbrad/">LinkedIn</a></p>
-            <p>Check out my STRAVA</p>
+            <p>Check out my <a href="https://www.strava.com/athletes/23746565">STRAVA</a></p>
+            <p>Here's my <a href="https://github.com/bradburch17">Github</a></p>
         </div>
       </div>
       <div className="row">

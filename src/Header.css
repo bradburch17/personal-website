@@ -2,4 +2,6 @@
   	background: url(./files/header.jpg) no-repeat center center;
 	background-size: cover;
   	color: white;
+  	height: 30em;
+  	width: auto;
 }
